@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    position: fixed;
+    background: white;
+    width: 100%;
+    font-family: 'Luckiest Guy';
+    color: red;
+    font-size: 20px;
+    display: flex;
+    align-items: baseline;
+    border-bottom: 5px solid red;
+    
+    
+}
+.navbar .logo img{  
+    margin-left: 50px;     
+    border-radius: 0 0 50% 50%;
+    height: 50px;
+    
+}
+.links{
+    margin-left: 50px;
+    display: flex;
+    align-self: center;
+    
+}
+.navbar .links ul li{
+    display: inline-block;     
+    padding: 20px;
+    list-style: none;
+        
+    
+}
+.navbar .links ul li:hover{
+    color: white;
+    background: red;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.search img{
+    height: 50px;
+    width: 50px;
+    margin: 00px 0 0 350px;
+    border-radius: 50%;
+    
+}
+    
+.wall{
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size:cover;
+    height: 50vh;
+    background-position: center;
+    background-image: url('../images/wall.webp');
+}
+.wall h1{
+    text-transform: uppercase;
+    margin-left: 250px;
+    font-size: 70px;
+    font-family: 'Indie Flower', cursive;
+}
+.products{
+    background: red;
+}
+.product-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.product{
+    
+    box-sizing: border-box;
+    width: 25%;
+}
+.story{
+    background: green;
+    display: flex;
+    padding: 50px;
+    
+    
+    
+}
+.story .story-img{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.story .image{
+    width: 50%;
+}
+.story .story-link{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 50px;
+    font-size: 20px;
+    flex-direction: column;
+}
+.story .story-link-title{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-weight: bolder
+}
+.story .story-btn{
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+}
+.story a{
+    text-decoration: none;
+    color: white;
+}
+.footer-wrap{
+    
+    color: white;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer-wrap ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.footer-wrap ul li
+{
+    padding: 20px;
+    
+}
+.footer-wrap ul li a
+{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer-middle{
+    padding: 50px;
+}
+.footer-middle img{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+.footer-bottom{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+.footer-bottom > div{
+    margin: 40px;
+}
+.footer-explain p{
+    width: 50%;
+}
